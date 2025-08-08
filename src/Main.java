@@ -1,3 +1,4 @@
+import java.io.PrintStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -73,5 +74,14 @@ public class Main {
             total1 = total1 + salary1;
             System.out.println(" Месяц " + f + " сумма накопелний равна " + total1 + " рублей ");
         }
+
+        // Task 10
+        System.out.println(" Task 10 ");
+
+        for (int z = 1; z <= 10; z = z + 1) {
+            System.out.println(" 2 * " + z + " = " + 2 * z);
+        }
+
+
     }
 }
