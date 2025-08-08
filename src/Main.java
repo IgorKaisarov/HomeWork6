@@ -25,6 +25,13 @@ public class Main {
             System.out.println(b);
         }
 
+        // Task 4
+        System.out.println(" Task 4 ");
+
+        for (int x = 10; x >= -10; x--) {
+            System.out.println(x);
+        }
+
 
 
 
