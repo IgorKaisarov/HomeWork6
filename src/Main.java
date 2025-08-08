@@ -18,6 +18,15 @@ public class Main {
             System.out.println(a);
         }
 
+        // Task 3
+        System.out.println(" Task 3 ");
+
+        for (int b = 2; b < 17; b = b + 2) {
+            System.out.println(b);
+        }
+
+
+
 
     }
 }
