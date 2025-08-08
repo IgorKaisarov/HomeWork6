@@ -53,6 +53,14 @@ public class Main {
             System.out.println(p);
         }
 
+        // Task 8
+        System.out.println(" Task 8 ");
 
+        int salary = 29000;
+        int total = 0;
+                for (int t = 1; t <= 12; t++){
+            total = total + salary;
+            System.out.println(" Месяц " + t + " сумма накоплений равна " + total + " рублей ");
+        }
     }
 }
