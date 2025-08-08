@@ -32,7 +32,12 @@ public class Main {
             System.out.println(x);
         }
 
+        // Task 5
+        System.out.println(" Task 5 ");
 
+        for (int v = 1904; v <= 2096; v = v + 4) {
+            System.out.println(v + " год является високосным ");
+        }
 
 
     }
