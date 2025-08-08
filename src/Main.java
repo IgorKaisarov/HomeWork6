@@ -2,10 +2,21 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+        System.out.printf(" Home Work 6 ");
 
+        // Task 1
+        System.out.println(" Task 1 ");
 
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+        }
 
+        // Task 2
+        System.out.println(" Task 2 ");
+
+        for (int a = 10; a > 0; a--) {
+            System.out.println(a);
+        }
 
 
     }
