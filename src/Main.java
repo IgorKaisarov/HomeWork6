@@ -49,7 +49,7 @@ public class Main {
         // Task 7
         System.out.println(" Task 7 ");
 
-        for (int p = 1; p <= 512; p = p * 2){
+        for (int p = 1; p <= 512; p = p * 2) {
             System.out.println(p);
         }
 
@@ -58,9 +58,20 @@ public class Main {
 
         int salary = 29000;
         int total = 0;
-                for (int t = 1; t <= 12; t++){
+        for (int t = 1; t <= 12; t++) {
             total = total + salary;
             System.out.println(" Месяц " + t + " сумма накоплений равна " + total + " рублей ");
+        }
+
+        // Task 9
+        System.out.println(" Task 9 ");
+
+        int salary1 = 29000;
+        int total1 = 0;
+        for (int f = 1; f <= 12; f++) {
+            total1 = total1 + (salary1 / 100);
+            total1 = total1 + salary1;
+            System.out.println(" Месяц " + f + " сумма накопелний равна " + total1 + " рублей ");
         }
     }
 }
