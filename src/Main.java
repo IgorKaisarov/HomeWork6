@@ -8,7 +8,7 @@ public class Main {
         // Task 1
         System.out.println(" Task 1 ");
 
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
 
@@ -22,7 +22,7 @@ public class Main {
         // Task 3
         System.out.println(" Task 3 ");
 
-        for (int b = 2; b < 17; b = b + 2) {
+        for (int b = 0; b < 17; b = b + 2) {
             System.out.println(b);
         }
 
